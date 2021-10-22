@@ -1,0 +1,329 @@
+@import url(utilities.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Palette+Mosaic&family=Play&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden;
+    overflow-y: visible; */
+}
+header{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) url('bg2.jpg');
+    height: auto;
+    width:100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+
+}
+
+.containor{
+    max-width: 100%;
+    /* padding: 0 15px;
+    margin: 0 auto; */
+
+
+}
+
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.left{
+    margin-left: auto;
+}
+
+.li {
+    margin-left: 10vw;
+    
+}
+.li a{
+    padding-right: 3vw;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in;
+}
+.li a:hover{
+    color: white;
+    font-weight: bold;
+    text-decoration-style: solid;
+
+}
+.right{
+    margin-left: auto;
+    margin-top: 8px;
+    margin-right: 6vw;
+    
+}
+
+.right button{
+    background-color: black;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in;
+}
+.right button:hover{
+    border: 2px solid rgb(231, 223, 208);
+    border-radius: 4px;
+}
+
+.right button img{
+    align-items: center;
+    width: 3rem;
+    height:3rem;
+}
+
+.leftm img{
+    display: flex;
+    border-radius: 50px;
+    
+    opacity: 0.9;
+    transition: all 0.3s ease-in 0s;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px #000;
+}
+.leftm img:hover{
+    transform: translateY(-8px);
+    opacity: 1;
+}
+.rightm{
+  
+   color: white;
+   width: 50%;
+   padding: 4rem auto;
+   margin:  5rem auto;
+}
+
+.rightm h3{
+    font-family: Righteous ,'Palette Mosaic', cursive;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    color: rgba(255, 228, 196, 0.74);
+}
+.rightm h2{
+    font-family: 'Play', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: bisque;
+    }
+.rightm h2 span{
+    font-family: Righteous,'Abril Fatface', cursive;
+    font-size: 4.7rem;
+    color: rgba(81, 197, 14, 0.849);
+    
+}
+.rightm h4{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.978rem;
+    width: 95%;
+    color: rgb(203, 238, 121);
+    
+}
+
+
+
+.o{
+    
+    color: rgb(95, 241, 229);
+    font-family: 'Kaushan Script',Righteous, 'Abril Fatface', cursive;
+    font-size: 30px;
+    padding-top: 2rem;
+}
+
+.shift{
+    position: relative;
+    bottom: 40px;
+    width: 90vw;
+    margin: 4rem 3rem 3rem 2rem;
+}
+.dear{
+    width: 80vw;
+    
+}
+.t{
+    color: bisque;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.th{
+    color: bisque;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.dummy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10px;
+    align-items: center;
+}
+.intro{
+    /* justify-content: space-between; */
+    margin: 4vh 1rem 4vh 1rem;
+    width: 95vw;
+    justify-content: center;
+}
+.intro .leftm{
+    padding: 3rem auto;
+    margin: 3rem auto;
+}
+.footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(226, 226, 94);
+    position: relative;
+    top: 25px;
+    padding-bottom: 70px;
+    
+    
+}
+
+.about1{
+    margin: 3rem 4rem;
+
+}
+.about1 img:hover{
+    transform: translateY(-8px);
+    opacity: 1;
+
+}
+.live{
+    font-weight: bold;
+    color: aqua;
+
+}
+
+.work1{
+    margin: 3rem auto 1rem auto;
+    width: 85vw;
+}
+.hack ul li a:hover{
+    color: blueviolet;
+}
+
+.worktext{
+       width: 60vw;
+       margin: 1rem 18rem 2rem 18rem;
+       overflow: hidden;
+}
+.worktext h5{
+    overflow: hidden;
+    color: burlywood;
+}
+
+.bharo{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Righteous,'Abril Fatface', cursive;
+}
+
+/* making hamburger */
+
+.burger{
+    display: none;
+    position: absolute;
+    top: 19px;
+    right: 3%;
+    cursor: pointer;
+
+}
+
+.line{
+    width: 33px;
+    height: 4px;
+    background-color: azure;
+    margin: 4px 4px;
+}
+
+
+/* applying media queries to make website responsive */
+
+@media (max-width: 1190px){
+    .churu{
+        flex-direction: column;
+        height: 15rem;
+        transition: all 0.5s ease-out;
+    }
+    .left{
+        flex-direction: column;
+        margin: 1rem auto;
+    }
+    .logo{
+        margin:  1rem auto;
+        padding: 15px auto;
+    }
+    .right{
+        margin:  1.5rem auto;
+        padding: 10px auto;
+    }
+    .li{
+        margin: auto;
+        padding: 10px auto;
+
+    }
+    .li a{
+        margin: auto;
+        padding: auto;
+    }
+    .intro{
+        flex-direction: column-reverse;
+    }
+    .rightm{
+        width: 100%;
+        margin: 3rem auto;
+    }
+    .rightm h4{
+        width: 95%;
+
+    }
+    .burger{
+        display: block;
+    }
+
+    .h-collapse{
+        height: 3rem;
+    }
+
+    .visible{
+        opacity: 0;
+    }
+
+}
+
+@media  (max-width: 800px){
+    .allb{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about1{
+        max-width: 100%;
+        margin: auto;
+    }
+}
+
+@media(max-width: 1190px ) and (min-width:760px){
+    .rightm{
+        width: 95%;
+        text-align: center;
+        margin: 3rem auto;
+    }
+}
+
+@media(max-width: 490px){
+    .rightm{
+margin-left: 0px;
+padding-left: 0px;
+    }
+}
+
